@@ -1,0 +1,76 @@
+button {
+    color: red;
+    padding: 5px;
+    margin: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px black;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    display: flex;
+    background-color: #ff0000;
+}
+
+button:hover {
+    transform: scale(1);
+    color: red;
+    background-color: black;
+    background-color: #000000;
+    /* Hover için daha koyu mavi */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    /* Hover gölgesi */
+}
+
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+
+h1:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: #ff0000;
+    margin: 8px auto 0;
+}
+
+.pulse-button {
+    background-color: #ff4757;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+}
+
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f2f2f2;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #888;
+}
+
+#lamp {
+    transition: opacity 0.5s ease-in-out;
+}
+
